@@ -29,4 +29,6 @@ sarah = Student.new
 sarah.first_name = "Sarah"
 sarah.last_name = "Lum"
 
+sarah.learn(some_knowledge)
+
 puts "Sarah Lum is learning: '#{sarah.knowledge.first}' from Avi."
